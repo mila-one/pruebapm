@@ -1,0 +1,236 @@
+@import url(<"link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">);
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #959fac;
+}
+:root{
+	--azul:#41c1fe;
+	--oscurofondo:#383838;
+	--grisfondo: #f3f3f3;
+	--titulo: #3c3838;
+	--subtitulo: #888585;
+	--general:#898989;
+	--icono: #727272;
+	--iconobase:#888585;
+}
+
+
+.btn-default{
+	background-color: var(--azul);
+	border-radius: 30px;
+	padding: 20px 35px!important;
+	color: #fff!important;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-left: 455px;
+	margin-top: 40px;
+}
+.btn-default1{
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	padding: 20px 35px!important;
+	color: var(--azul);
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-left: 455px;
+	margin-top: 40px;
+}
+
+.btn-default:hover {
+	background-color: #fff;
+}
+
+.nav-link{
+	color: #FFF;
+}
+
+#home {
+	background-image: url(../img/slider1_slide2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+
+#home h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 1000;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 180px;
+}
+#home h2{
+	font-size: 20px;
+	color: var(--subtitulo);
+	text-align: center;
+}
+
+#products{
+	margin: 50px;
+	background-color: var(--grisfondo);
+}
+
+#products h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#help{
+	background-color: var(--azul);
+	margin-right: 15px;
+	padding: 80px;
+}
+#help2{
+	background-image: url("../img/men-running.jpg");
+	padding: 80px;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#help3{
+	background-image: url("../img/women-runnig.jpg");
+	padding: 65px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#products h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-align: center;
+	color: var(--titulo);
+}
+#products p{
+	color: var(--general);
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+#products h3{
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 15px;
+	background-color: #FFF;
+}
+
+#new{
+	background-image: url("../img/bg_action.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:100px 0; 
+}
+#new h1{
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 30px;
+	text-align: right;
+}
+#new p{
+	color: var(--general);
+	font-family: 'Oswald', sans-serif;
+	text-align: right;
+	text-transform: uppercase;
+}
+#new h3{
+	font-family: 'Oswald', sans-serif;
+	color: var(--azul);
+	font-weight: 700;
+	text-align: right;
+}
+
+#how1{
+	background-image: url("../img/service-1-370x330.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 10px;
+}
+#how2{
+	background-image: url("../img/service-2-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 10px;
+}
+#how3{
+	background-image: url("../img/service-3-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 10px;
+}
+#how h2{
+	color: var(--titulo);
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 30px;
+	text-align: center;
+}
+#how h1{
+color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+#info-footer{
+	background-color: var(--oscurofondo);
+	color: #A2A2A2;
+	padding: 20px 0px;
+	font-size: 13px;
+}
+
+#info-footer h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #DFDFDF;
+	margin-bottom: 25px;
+}
+
+.list-inline-redes i{
+	background-color: var(--iconobase);
+	color: #FFFFFF;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 100%;
+	transition: all 0.3s ease-in-out;
+}
+.list-inline-redes i:hover{
+	background-color: var(--icono);
+	transition: all 0.3s ease-in-out;
+}
+
+
+#copyright{
+	background-color: var(--oscurofondo);
+	color: #888888;
+	padding: 10px 0;
+	font-size: 12px;
+}
+
+#copyright a{
+	color: #888888;
+}
+
+#copyright a:hover{
+	color: #fff;
+}
